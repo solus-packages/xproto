@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>xproto</Name>
+        <Packager>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>xorg.proto</PartOf>
+        <Summary xml:lang="en">X Window System Core Protocol</Summary>
+        <Description xml:lang="en">This package provides the headers and specification documents defining the X Window System Core Protocol, Version 11. It also includes a number of headers that aren&apos;t purely protocol related, but are depended upon by many other X Window System packages to provide common definitions and porting layer.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>xproto</Name>
+        <Summary xml:lang="en">X Window System Core Protocol</Summary>
+        <Description xml:lang="en">This package provides the headers and specification documents defining the X Window System Core Protocol, Version 11. It also includes a number of headers that aren&apos;t purely protocol related, but are depended upon by many other X Window System packages to provide common definitions and porting layer.
+</Description>
+        <PartOf>xorg.proto</PartOf>
+        <Files>
+            <Path fileType="data">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="6">
+            <Date>2016-04-17</Date>
+            <Version>7.0.28</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

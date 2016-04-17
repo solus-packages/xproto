@@ -1,0 +1,18 @@
+name        : xproto
+version     : 7.0.28
+release     : 6
+source     :
+    - http://xorg.freedesktop.org/releases/individual/proto/xproto-7.0.28.tar.gz : 6cabc8ce3fa2b1a2427871167b62c24d5b08a58bd3e81ed7aaf08f2bf6dbcfed
+license     :
+    - MIT
+summary     : X Window System Core Protocol
+component   : xorg.proto
+description : |
+    This package provides the headers and specification documents defining the X Window System Core Protocol, Version 11. It also includes a number of headers that aren't purely protocol related, but are depended upon by many other X Window System packages to provide common definitions and porting layer.
+patterns   : /
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
