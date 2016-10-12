@@ -23,9 +23,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2016-04-17</Date>
-            <Version>7.0.28</Version>
+        <Update release="7">
+            <Date>2016-10-12</Date>
+            <Version>7.0.31</Version>
             <Comment>Packaging update</Comment>
             <Name>Ikey Doherty</Name>
             <Email>ikey@solus-project.com</Email>
